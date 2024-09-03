@@ -1,6 +1,9 @@
 ﻿
 public class BankAccount
 {
+    // Verifica putin aici accesul la variabilele astea, 
+    // nu stiu daca voiai sa fie toate publice sau nu. 
+    // (poate de ex voiai sa le poti instantia doar la run-time, si sa nu fie publice)
     public int _id;
     public int _pin;
     public double _sum_lei;
