@@ -3,6 +3,15 @@
 {
     public class BankSystem
     {
+
+        /*
+        Un cod bun overall, problema e ca nu respectie SRP (Single Responsability Principle)
+        si ai o singura clasa BankSystem care iti handle-uieste mai multe functionalitati.
+        Mai uita-te putin peste clasa asta, poate o poti sparge in mai multe clase, de ex:
+        una care sa faca operatiile: deposit, withdraw, etc, iar alta care sa faca Login().
+        Overall o clasa buna, dar inca poate fi imbunatatita!
+        */
+        
         private List<BankAccount> accounts;
         private BankAccount currentAccount;
 
