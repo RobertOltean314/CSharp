@@ -2,6 +2,12 @@
 
 public class ConvertingInput
 {
+
+    // Sunt foarte bune metodele, doar ca ambele folosesc cam acelasi cod. 
+    // Dupa ce mai faci din cursul de C#, arunca un ochi peste codul asta
+    // si spune-mi de crezi de Virtual Methods, poate crezi ca o sa fie o 
+    // implementare mai buna cu ele.
+    
     public int ConvertToInt(string message)
     {
         bool validInput = false;
